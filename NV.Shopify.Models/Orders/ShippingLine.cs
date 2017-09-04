@@ -12,5 +12,8 @@ namespace NV.Shopify.Models.Orders
 	    public string Source { get; set; }
 	    public string Title { get; set; }
 	    public string Handle { get; set; }
+        public IList<TaxLine> TaxLines { get; set; }
+        public string CarrierIdentifier { get; set; }
+        public string RequestedFulfillmentServiceId { get; set; }
     }
 }

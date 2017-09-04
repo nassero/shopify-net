@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using NV.Shopify.Models.Location;
+using NV.Shopify.Models.Settings;
 
 namespace NV.Shopify.Models.Customers
 {

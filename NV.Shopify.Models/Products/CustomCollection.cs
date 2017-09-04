@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using NV.Shopify.Models.OnlineStore;
+using NV.Shopify.Models.Settings;
 
 namespace NV.Shopify.Models.Products
 {

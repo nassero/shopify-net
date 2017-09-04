@@ -6,7 +6,9 @@ namespace NV.Shopify.Models.Location
     {
 	    public string Code { get; set; }
 	    public string Name { get; set; }
+        public long? ShippingZoneId { get; set; }
 	    public IList<Province> Provinces { get; set; }
 	    public float Tax { get; set; }
+        public string TaxName { get; set; }
     }
 }
